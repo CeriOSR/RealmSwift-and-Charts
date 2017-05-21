@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1F10D05091AFBAEBFE9BB5E /* Pods_Realm_with_Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E853C82E10D644C318B22A /* Pods_Realm_with_Charts.framework */; };
+		E0E83C351ED138C20021663F /* VisitorCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E83C341ED138C20021663F /* VisitorCount.swift */; };
 		E0EA33D61ED12D7B00AF01D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EA33D51ED12D7B00AF01D2 /* AppDelegate.swift */; };
 		E0EA33D81ED12D7B00AF01D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EA33D71ED12D7B00AF01D2 /* ViewController.swift */; };
 		E0EA33DB1ED12D7B00AF01D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EA33D91ED12D7B00AF01D2 /* Main.storyboard */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93E853C82E10D644C318B22A /* Pods_Realm_with_Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_with_Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB01AB10FD28BF3E79FD193 /* Pods-Realm with Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm with Charts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realm with Charts/Pods-Realm with Charts.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E83C341ED138C20021663F /* VisitorCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorCount.swift; sourceTree = "<group>"; };
 		E0EA33D21ED12D7B00AF01D2 /* Realm with Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm with Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EA33D51ED12D7B00AF01D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0EA33D71ED12D7B00AF01D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		E0EA33F11ED12D7B00AF01D2 /* Realm with ChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Realm with ChartsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EA33F51ED12D7B00AF01D2 /* Realm_with_ChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm_with_ChartsUITests.swift; sourceTree = "<group>"; };
 		E0EA33F71ED12D7B00AF01D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6814A2DF0DD33DE4D8246D2 /* Pods-Realm with Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm with Charts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realm with Charts/Pods-Realm with Charts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F10D05091AFBAEBFE9BB5E /* Pods_Realm_with_Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78700CCAB83945BB12B0DF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E853C82E10D644C318B22A /* Pods_Realm_with_Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0EA33C91ED12D7B00AF01D2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				E0EA33E91ED12D7B00AF01D2 /* Realm with ChartsTests */,
 				E0EA33F41ED12D7B00AF01D2 /* Realm with ChartsUITests */,
 				E0EA33D31ED12D7B00AF01D2 /* Products */,
+				FF733263D7CF39FB1857DDBB /* Pods */,
+				78700CCAB83945BB12B0DF2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +120,7 @@
 				E0EA33DC1ED12D7B00AF01D2 /* Assets.xcassets */,
 				E0EA33DE1ED12D7B00AF01D2 /* LaunchScreen.storyboard */,
 				E0EA33E11ED12D7B00AF01D2 /* Info.plist */,
+				E0E83C341ED138C20021663F /* VisitorCount.swift */,
 			);
 			path = "Realm with Charts";
 			sourceTree = "<group>";
@@ -125,6 +143,15 @@
 			path = "Realm with ChartsUITests";
 			sourceTree = "<group>";
 		};
+		FF733263D7CF39FB1857DDBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABB01AB10FD28BF3E79FD193 /* Pods-Realm with Charts.debug.xcconfig */,
+				F6814A2DF0DD33DE4D8246D2 /* Pods-Realm with Charts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0EA33FA1ED12D7B00AF01D2 /* Build configuration list for PBXNativeTarget "Realm with Charts" */;
 			buildPhases = (
+				6D1F15AD1A9DD775A4DEFC29 /* [CP] Check Pods Manifest.lock */,
 				E0EA33CE1ED12D7B00AF01D2 /* Sources */,
 				E0EA33CF1ED12D7B00AF01D2 /* Frameworks */,
 				E0EA33D01ED12D7B00AF01D2 /* Resources */,
+				64062EEBB08792BAB70A9ED5 /* [CP] Embed Pods Frameworks */,
+				C137FCA5400F015A6F00F506 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +287,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64062EEBB08792BAB70A9ED5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm with Charts/Pods-Realm with Charts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D1F15AD1A9DD775A4DEFC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C137FCA5400F015A6F00F506 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm with Charts/Pods-Realm with Charts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0EA33CE1ED12D7B00AF01D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +342,7 @@
 			files = (
 				E0EA33D81ED12D7B00AF01D2 /* ViewController.swift in Sources */,
 				E0EA33D61ED12D7B00AF01D2 /* AppDelegate.swift in Sources */,
+				E0E83C351ED138C20021663F /* VisitorCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +494,7 @@
 		};
 		E0EA33FB1ED12D7B00AF01D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB01AB10FD28BF3E79FD193 /* Pods-Realm with Charts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AS82F53XC3;
@@ -428,6 +508,7 @@
 		};
 		E0EA33FC1ED12D7B00AF01D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6814A2DF0DD33DE4D8246D2 /* Pods-Realm with Charts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AS82F53XC3;
@@ -516,6 +597,7 @@
 				E0EA33FC1ED12D7B00AF01D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0EA33FD1ED12D7B00AF01D2 /* Build configuration list for PBXNativeTarget "Realm with ChartsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +606,7 @@
 				E0EA33FF1ED12D7B00AF01D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0EA34001ED12D7B00AF01D2 /* Build configuration list for PBXNativeTarget "Realm with ChartsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +615,7 @@
 				E0EA34021ED12D7B00AF01D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
