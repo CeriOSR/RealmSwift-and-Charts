@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        axisFormatDelegate = self as? IAxisValueFormatter     //assinging a delegate to the x axis of the charts
+        axisFormatDelegate = self     //assinging a delegate to the x axis of the charts
         updateChartsWithData()
     }
     
